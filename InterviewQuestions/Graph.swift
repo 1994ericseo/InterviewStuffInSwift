@@ -13,6 +13,22 @@ class Graph {
         self.head = head
     }
     
+    func depthFirstSearchRecursive(node: Node?, value: Int, discovered: inout [Node]) -> Node? {
+        if node == nil {
+            return nil
+        } else if node?.value == value {
+            return node
+        }
+        if !discovered.contains(where: { $0 === node}) {
+            discovered.append(node!)
+        }
+        for child in node!.children {
+            discovered.append(child)
+            return depthFirstSearchRecursive(node: child, value: value, discovered: &discovered)
+        }
+        return nil
+    }
+    
     func depthFirstSearch(value: Int) -> Node? {
         var discovered: [Node] = []
         let stack = Stack()
