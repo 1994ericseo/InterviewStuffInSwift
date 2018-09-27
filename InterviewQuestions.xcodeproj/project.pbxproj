@@ -15,6 +15,9 @@
 		AD7801562141ABBC006F9810 /* Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7801552141ABBC006F9810 /* Substring.swift */; };
 		AD7801582141AE0B006F9810 /* SubstringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7801572141AE0B006F9810 /* SubstringTests.swift */; };
 		AD7801592141AE17006F9810 /* Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7801552141ABBC006F9810 /* Substring.swift */; };
+		ADC0428C215D5E700001AF30 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0428B215D5E700001AF30 /* BubbleSort.swift */; };
+		ADC04290215D60280001AF30 /* BubbleSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0428F215D60280001AF30 /* BubbleSortTests.swift */; };
+		ADC04291215D60390001AF30 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0428B215D5E700001AF30 /* BubbleSort.swift */; };
 		ADC7D1152111166900CD8AAB /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC7D1142111166900CD8AAB /* Queue.swift */; };
 		ADE428C6210FAED000127CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE428C5210FAED000127CE8 /* AppDelegate.swift */; };
 		ADE428C8210FAED000127CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE428C7210FAED000127CE8 /* ViewController.swift */; };
@@ -62,6 +65,8 @@
 		AD21A35B2118DDB600A6B12B /* BSTNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTNode.swift; sourceTree = "<group>"; };
 		AD7801552141ABBC006F9810 /* Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substring.swift; sourceTree = "<group>"; };
 		AD7801572141AE0B006F9810 /* SubstringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstringTests.swift; sourceTree = "<group>"; };
+		ADC0428B215D5E700001AF30 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		ADC0428F215D60280001AF30 /* BubbleSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortTests.swift; sourceTree = "<group>"; };
 		ADC7D1142111166900CD8AAB /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		ADE428C2210FAED000127CE8 /* InterviewQuestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewQuestions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE428C5210FAED000127CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +188,8 @@
 				AD1C580621237E1F00224BED /* QuickSortTests.swift */,
 				ADEFDD77215D2B930061292B /* Heap.swift */,
 				ADEFDD79215D2CE00061292B /* HeapTests.swift */,
+				ADC0428B215D5E700001AF30 /* BubbleSort.swift */,
+				ADC0428F215D60280001AF30 /* BubbleSortTests.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -322,6 +329,7 @@
 				AD1C580521237AAD00224BED /* QuickSort.swift in Sources */,
 				ADF96DC621224256008D173E /* InsertionSort.swift in Sources */,
 				ADEFDD78215D2B930061292B /* Heap.swift in Sources */,
+				ADC0428C215D5E700001AF30 /* BubbleSort.swift in Sources */,
 				ADC7D1152111166900CD8AAB /* Queue.swift in Sources */,
 				AD0676C9210FF8B500FE8776 /* Stack.swift in Sources */,
 				ADE428F4210FAEED00127CE8 /* SinglyLinkedList.swift in Sources */,
@@ -339,6 +347,7 @@
 			files = (
 				ADF96DCE21226F35008D173E /* MergeSortTests.swift in Sources */,
 				ADEFDD7B215D2D0E0061292B /* Heap.swift in Sources */,
+				ADC04291215D60390001AF30 /* BubbleSort.swift in Sources */,
 				AD7801582141AE0B006F9810 /* SubstringTests.swift in Sources */,
 				ADE428F7210FAFBB00127CE8 /* SinglyLinkedList.swift in Sources */,
 				ADEFDD7A215D2CE00061292B /* HeapTests.swift in Sources */,
@@ -350,6 +359,7 @@
 				ADE428F6210FAF9600127CE8 /* SinglyLinkedListTests.swift in Sources */,
 				ADE428DB210FAED100127CE8 /* InterviewQuestionsTests.swift in Sources */,
 				AD1C580721237E1F00224BED /* QuickSortTests.swift in Sources */,
+				ADC04290215D60280001AF30 /* BubbleSortTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
